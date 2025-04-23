@@ -1,0 +1,7 @@
+Project
+Design and develop a responsive interactive Campus Connect Portal - a frontend web application that allows a students to stay updated with campus events, clubs. and announcements. 
+REQUIREMENTS:
+* Home Page with upcoming events and a dynamic banner.
+* Event Details Page with information and a simulated Register button.
+* Clubs Page with 3-5 sample college clubs
+* Search & Filter functionality,frame
