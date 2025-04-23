@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input"
 import { FeaturedBanner } from "@/components/featured-banner"
 import { EventCard } from "@/components/event-card"
 import { AnimatedSection } from "@/components/animated-section"
+import { CallButton } from "@/components/call-button"
 
 export default function HomePage() {
   return (
@@ -182,6 +183,35 @@ export default function HomePage() {
           <Button variant="outline" size="lg">
             Explore All Clubs
           </Button>
+        </div>
+      </AnimatedSection>
+
+      <AnimatedSection className="container py-12 space-y-6">
+        <div className="flex justify-center mt-6">
+          <Button variant="outline" size="lg">
+            View All Clubs
+          </Button>
+        </div>
+      </AnimatedSection>
+
+      {/* AI Assistant Section */}
+      <AnimatedSection className="container py-16 bg-gradient-to-r from-primary/5 to-primary/10 rounded-3xl my-8">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 px-4">
+          <div className="flex-1 space-y-4">
+            <h2 className="text-3xl font-bold tracking-tight">AI-Powered Campus Assistant</h2>
+            <p className="text-lg text-muted-foreground">
+              Get instant support and information about campus services, events, and resources through our AI assistant.
+            </p>
+            <CallButton />
+          </div>
+          <div className="relative w-full md:w-1/2 aspect-square max-w-[400px]">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/30 rounded-full animate-pulse "></div>
+            <img
+              src="https://i.pinimg.com/736x/e4/37/c1/e437c12c0a2ce363015043927b9fa8ce.jpg"
+              alt="AI Assistant"
+              className="relative z-10 w-full h-full object-contain rounded-[50%]"
+            />
+          </div>
         </div>
       </AnimatedSection>
 
