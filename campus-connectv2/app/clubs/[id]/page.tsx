@@ -264,7 +264,7 @@ export default function ClubPage({ params }: ClubPageProps) {
                           </div>
                         </div>
                         <div className="flex justify-center md:justify-end items-center mt-4 md:mt-0">
-                          <Button>RSVP</Button>
+                          <Button>Register</Button>
                         </div>
                       </div>
                     ))}

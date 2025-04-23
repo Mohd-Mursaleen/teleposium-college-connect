@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { AnimatedSection } from "@/components/animated-section"
 import { CollegeBanner } from "@/components/college-banner"
+import { ShowPopupButton } from "@/components/show-popup-button"
 
 export default function AboutPage() {
   const bannerSlides = [
@@ -241,6 +242,11 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" className="px-8">Apply Now</Button>
             <Button size="lg" variant="outline" className="px-8">Contact Us</Button>
+          </div>
+          
+          {/* Popup Button */}
+          <div className="mt-8 pt-8 border-t border-primary/10">
+            <ShowPopupButton />
           </div>
         </div>
       </AnimatedSection>
