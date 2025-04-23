@@ -5,71 +5,131 @@ import { AnimatedSection } from "@/components/animated-section"
 import Link from "next/link"
 
 export default function ClubsPage() {
-  // Sample clubs data
+  // Real clubs data based on the file
   const clubs = [
     {
-      id: "robotics",
-      name: "Robotics Club",
-      category: "Technology",
+      id: "leo-club",
+      name: "LEO Club",
+      category: "Literary",
       image: "/placeholder.svg?height=200&width=400",
-      description: "Build and program robots for competitions and research projects",
-      members: 42,
-      meetingTime: "Tuesdays, 6:00 PM",
-      location: "Engineering Building, Room 305",
+      description: "Let's Express Ourselves - A literary club established in 2004 that enhances students' communication skills through debates, group discussions, mock interviews, and resume building.",
+      members: 45,
+      meetingTime: "Fridays, 4:00 PM",
+      location: "Main Building, Room 205",
+      events: ["Literati (Annual Literary Fest)"]
     },
     {
-      id: "debate",
-      name: "Debate Club",
-      category: "Academic",
+      id: "gap",
+      name: "GAP Theatre Group",
+      category: "Cultural",
       image: "/placeholder.svg?height=200&width=400",
-      description: "Develop public speaking skills and compete in debate tournaments",
-      members: 28,
-      meetingTime: "Wednesdays, 5:00 PM",
-      location: "Humanities Building, Room 210",
+      description: "Getting Across to People - The official theatre group that performs various forms of theatre including one-act plays, skits, mimes, and street plays.",
+      members: 32,
+      meetingTime: "Thursdays, 5:30 PM",
+      location: "Cultural Center, Theatre Hall",
+      events: ["Annual Productions at Professional Theatres"]
     },
     {
-      id: "photography",
-      name: "Photography Club",
+      id: "susamskriti",
+      name: "Susamskriti Cultural Forum",
+      category: "Cultural",
+      image: "/placeholder.svg?height=200&width=400",
+      description: "This forum organizes cultural events and festivals, promoting rich heritage and traditions among students.",
+      members: 60,
+      meetingTime: "Mondays, 4:30 PM",
+      location: "Cultural Center, Meeting Room",
+      events: ["Traditional Day Celebration", "Cultural Fest"]
+    },
+    {
+      id: "kalakriti",
+      name: "Kalakriti",
       category: "Arts",
       image: "/placeholder.svg?height=200&width=400",
-      description: "Learn photography techniques and showcase your work in exhibitions",
-      members: 35,
-      meetingTime: "Thursdays, 4:30 PM",
-      location: "Arts Center, Room 120",
+      description: "A club dedicated to drawing and visual arts, providing a platform for students to showcase their artistic talents.",
+      members: 28,
+      meetingTime: "Wednesdays, 3:00 PM",
+      location: "Arts Center, Studio 101",
+      events: ["Annual Art Exhibition"]
     },
     {
-      id: "chess",
-      name: "Chess Club",
-      category: "Games",
+      id: "dance-clubs",
+      name: "Pirates & RIPOSTE Dance Clubs",
+      category: "Cultural",
       image: "/placeholder.svg?height=200&width=400",
-      description: "Play chess with fellow enthusiasts and participate in tournaments",
-      members: 20,
-      meetingTime: "Fridays, 3:00 PM",
-      location: "Student Center, Game Room",
-    },
-    {
-      id: "environmental",
-      name: "Environmental Action",
-      category: "Activism",
-      image: "/placeholder.svg?height=200&width=400",
-      description: "Work on sustainability initiatives and environmental awareness campaigns",
+      description: "Dance clubs focusing on various dance forms, encouraging students to participate in cultural fests and competitions.",
       members: 50,
-      meetingTime: "Mondays, 5:30 PM",
-      location: "Science Building, Room 150",
+      meetingTime: "Tuesdays & Saturdays, 5:00 PM",
+      location: "Cultural Center, Dance Studio",
+      events: ["Intercollegiate Dance Competitions", "Annual Dance Showcase"]
+    },
+    {
+      id: "shutter-bugs",
+      name: "Shutter Bugs",
+      category: "Media",
+      image: "/placeholder.svg?height=200&width=400",
+      description: "The official photography club established in 2014, allowing students to explore and enhance their photography skills through various events and workshops.",
+      members: 35,
+      meetingTime: "Saturdays, 10:00 AM",
+      location: "Media Lab, Room 103",
+      events: ["Photo Walks", "Photography Exhibitions"]
+    },
+    {
+      id: "mvit-quillz",
+      name: "MVIT Quillz",
+      category: "Quiz",
+      image: "/placeholder.svg?height=200&width=400",
+      description: "The quiz club formed in 2015 that conducts quizzes during college fests and participates in national-level competitions.",
+      members: 22,
+      meetingTime: "Fridays, 2:00 PM",
+      location: "Library, Discussion Room",
+      events: ["TATA Crucible", "Nobel Memorial Quiz", "College Quiz Events"]
+    },
+    {
+      id: "spandana",
+      name: "SPANDANA",
+      category: "Social Outreach",
+      image: "/placeholder.svg?height=200&width=400",
+      description: "A social outreach club that collaborates with the NSS Sir MVIT chapter to organize events like blood donation drives and community service activities.",
+      members: 75,
+      meetingTime: "Sundays, 9:00 AM",
+      location: "Community Hall",
+      events: ["Blood Donation Camps", "Village Outreach Programs"]
+    },
+    {
+      id: "eco-club",
+      name: "ECO Club",
+      category: "Environmental",
+      image: "/placeholder.svg?height=200&width=400",
+      description: "Dedicated to environmental conservation and awareness, this club organizes activities promoting sustainable practices.",
+      members: 40,
+      meetingTime: "Wednesdays, 4:00 PM",
+      location: "Science Building, Room 210",
+      events: ["Tree Plantation Drives", "Campus Cleanup"]
+    },
+    {
+      id: "debate-club",
+      name: "Sir MVIT Debate Club",
+      category: "Literary",
+      image: "/placeholder.svg?height=200&width=400",
+      description: "Encourages students to participate in debates, enhancing their critical thinking and public speaking abilities.",
+      members: 25,
+      meetingTime: "Tuesdays, 3:30 PM",
+      location: "Humanities Building, Room 105",
+      events: ["Intercollegiate Debate Competitions", "Model UN"]
     },
   ]
 
-  // Categories for filtering
-  const categories = ["All", "Technology", "Academic", "Arts", "Sports", "Games", "Activism", "Cultural"]
+  // Categories for filtering - updated with real categories
+  const categories = ["All", "Literary", "Cultural", "Arts", "Media", "Quiz", "Social Outreach", "Environmental"]
 
   return (
     <main className="flex-1">
       <div className="bg-muted/50">
         <AnimatedSection className="container py-12">
           <div className="max-w-2xl mx-auto text-center">
-            <h1 className="text-4xl font-bold tracking-tight mb-4">Campus Clubs</h1>
+            <h1 className="text-4xl font-bold tracking-tight mb-4">Student Clubs & Organizations</h1>
             <p className="text-muted-foreground text-lg">
-              Discover and join student organizations that match your interests and passions
+              Find your community and pursue your passions through diverse student-led clubs at Sir MVIT
             </p>
           </div>
         </AnimatedSection>
@@ -115,10 +175,10 @@ export default function ClubsPage() {
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-xl group-hover:text-primary transition-colors">{club.name}</h3>
-                  <p className="text-muted-foreground text-sm mt-1">{club.description}</p>
+                  <p className="text-muted-foreground text-sm mt-1 line-clamp-2">{club.description}</p>
                   <div className="flex justify-between items-center mt-4 text-sm text-muted-foreground">
                     <span>{club.members} members</span>
-                    <span>{club.meetingTime}</span>
+                    <span>{club.meetingTime.split(',')[0]}</span>
                   </div>
                 </div>
               </div>
@@ -130,11 +190,11 @@ export default function ClubsPage() {
       <AnimatedSection className="container py-12 my-8">
         <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 md:p-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Start Your Own Club</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">Join a Club Today</h2>
             <p className="text-muted-foreground mb-6">
-              Have a passion that's not represented? Create a new student organization and build your community.
+              Enhance your college experience, develop skills, and build lasting friendships by joining one of our many student organizations.
             </p>
-            <Button size="lg">Learn How to Start a Club</Button>
+            <Button size="lg">Contact Student Affairs</Button>
           </div>
         </div>
       </AnimatedSection>

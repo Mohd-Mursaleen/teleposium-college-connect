@@ -69,6 +69,42 @@ export default function AboutPage() {
     }
   ]
 
+  const facultyInfo = [
+    {
+      department: "Electrical & Electronics Engineering",
+      members: [
+        { name: "Dr. Suresh H.L.", role: "Professor and Head" },
+        { name: "Dr. Mahesh K.", role: "Professor" },
+        { name: "Dr. C.V. Mohan", role: "Professor" }
+      ]
+    },
+    {
+      department: "Information Science & Engineering",
+      members: [
+        { name: "Dr. G.C. Bhanuprakash", role: "Professor & HOD" },
+        { name: "Dr. Sheshappa S.N.", role: "Professor" },
+        { name: "Mr. Raghav S.", role: "Assistant Professor" },
+        { name: "Ms. Suguna M.K.", role: "Assistant Professor" }
+      ]
+    },
+    {
+      department: "Biotechnology",
+      members: [
+        { name: "Dr. Rajendra Singh C.", role: "Associate Professor & Head" },
+        { name: "Dr. Priya Narayan", role: "Professor" },
+        { name: "Dr. Mrinalini Menon", role: "Professor" }
+      ]
+    },
+    {
+      department: "Mathematics",
+      members: [
+        { name: "Dr. S. Sreelakshmi", role: "Professor & HOD" },
+        { name: "Ms. S. Uma", role: "Assistant Professor" },
+        { name: "Dr. Chaya T.Y.", role: "Associate Professor" }
+      ]
+    }
+  ];
+
   const accreditations = [
     {
       name: "NAAC",
@@ -82,7 +118,7 @@ export default function AboutPage() {
     },
     {
       name: "AICTE",
-      description: "Approved by All India Council for Technical Education",
+      description: "Approved by All India Council for Technical Education, New Delhi",
       logo: "/placeholder.svg?height=80&width=80"
     },
     {
@@ -170,6 +206,33 @@ export default function AboutPage() {
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent z-20">
                 <h3 className="text-white text-lg font-medium">{slide.title}</h3>
               </div>
+            </div>
+          ))}
+        </div>
+      </AnimatedSection>
+
+      {/* Faculty Section - NEW */}
+      <AnimatedSection className="container py-16">
+        <div className="flex flex-col items-center text-center mb-10">
+          <h2 className="text-3xl font-bold">Our Faculty</h2>
+          <div className="h-1 w-20 bg-primary mt-4 mb-6"></div>
+          <p className="text-muted-foreground max-w-3xl">
+            Sir MVIT boasts a team of qualified and dedicated faculty members across various departments.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {facultyInfo.map((dept, index) => (
+            <div key={index} className="border rounded-lg p-6 bg-card">
+              <h3 className="text-xl font-bold border-b pb-2 mb-4">{dept.department}</h3>
+              <ul className="space-y-3">
+                {dept.members.map((member, idx) => (
+                  <li key={idx} className="flex justify-between items-center">
+                    <span className="font-medium">{member.name}</span>
+                    <span className="text-sm text-muted-foreground">{member.role}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>

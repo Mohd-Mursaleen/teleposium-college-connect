@@ -1,4 +1,4 @@
-import { Calendar, Clock, MapPin } from "lucide-react"
+import { Calendar, Clock, MapPin, Info } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 
@@ -9,10 +9,20 @@ interface EventCardProps {
   location: string
   category: string
   image: string
+  description?: string
   className?: string
 }
 
-export function EventCard({ title, date, time, location, category, image, className }: EventCardProps) {
+export function EventCard({ 
+  title, 
+  date, 
+  time, 
+  location, 
+  category, 
+  image, 
+  description,
+  className 
+}: EventCardProps) {
   return (
     <div
       className={cn(
@@ -46,6 +56,11 @@ export function EventCard({ title, date, time, location, category, image, classN
             <MapPin className="h-4 w-4" />
             <span>{location}</span>
           </div>
+          {description && (
+            <div className="mt-3 pt-3 border-t border-border">
+              <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
+            </div>
+          )}
         </div>
       </div>
     </div>

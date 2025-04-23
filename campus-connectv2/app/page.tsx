@@ -31,62 +31,68 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Link href="/events/1" className="block group">
             <EventCard
-              title="HackNocturne 2025"
-              date="April 20, 2025"
-              time="9:00 AM - 4:00 PM"
-              location="New Block"
-              category="Orientation"
-              image="https://www.sirmvit.edu/wp-content/uploads/2025/03/Hackathon-poster.jpg?height=200&width=400"
+              title="HACKNOCTURNE"
+              date="Mar 28-29, 2025"
+              time="24-hour hackathon"
+              location="Sir MVIT Campus"
+              category="Technical"
+              image="/placeholder.svg?height=200&width=400"
+              description="A 24-hour hackathon organized under the flagship SUTANTRA, powered by TechHub:: Community and GLUG MVIT."
             />
           </Link>
           <Link href="/events/2" className="block group">
             <EventCard
-              title="Career Fair"
-              date="Sep 15, 2023"
-              time="10:00 AM - 3:00 PM"
-              location="Engineering Building"
-              category="Career"
+              title="AICTE ATAL-Sponsored FDP"
+              date="Nov 11-16, 2024"
+              time="One-week program"
+              location="EEE Department"
+              category="Faculty Development"
               image="/placeholder.svg?height=200&width=400"
+              description="Empowering Futuristic Research Avenues in Energy, Sustainability & Climate Change for Industrial Innovation."
             />
           </Link>
           <Link href="/events/3" className="block group">
             <EventCard
-              title="Hackathon 2023"
-              date="Oct 5-7, 2023"
-              time="48 Hours"
-              location="Computer Science Building"
-              category="Technology"
+              title="Shravana Sanje Bhajan"
+              date="Every Monday"
+              time="5:15 PM"
+              location="Sir MVIT Campus"
+              category="Cultural"
               image="/placeholder.svg?height=200&width=400"
+              description="Weekly Bhajan Program held every Monday evening during the month of Shravana."
             />
           </Link>
           <Link href="/events/4" className="block group">
             <EventCard
-              title="Fall Concert"
-              date="Oct 20, 2023"
-              time="7:00 PM - 11:00 PM"
-              location="Campus Stadium"
-              category="Entertainment"
+              title="Alumni Technical Talk"
+              date="Jun 7, 2024"
+              time="Guest Lecture"
+              location="Civil Engineering Department"
+              category="Academic"
               image="/placeholder.svg?height=200&width=400"
+              description="Talk on 'Global Water Industry Prospective' organized by the Department of Civil Engineering."
             />
           </Link>
           <Link href="/events/5" className="block group">
             <EventCard
-              title="Alumni Networking"
-              date="Nov 10, 2023"
-              time="6:00 PM - 8:00 PM"
-              location="Business School Atrium"
-              category="Networking"
+              title="Startup Planning Session"
+              date="May 24, 2024"
+              time="Workshop"
+              location="MBA Department"
+              category="Entrepreneurship"
               image="/placeholder.svg?height=200&width=400"
+              description="How to Plan for Startup and Legal & Ethical Steps - organized by the Department of MBA."
             />
           </Link>
           <Link href="/events/6" className="block group">
             <EventCard
-              title="Winter Formal"
-              date="Dec 8, 2023"
-              time="8:00 PM - 12:00 AM"
-              location="Grand Ballroom"
-              category="Social"
+              title="Parent-Teacher Meeting"
+              date="May 12, 2024"
+              time="11:00 AM"
+              location="Virtual"
+              category="Academic"
               image="/placeholder.svg?height=200&width=400"
+              description="Virtual Parent-Teacher Meeting organized by the Department of MCA."
             />
           </Link>
         </div>
