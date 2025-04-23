@@ -16,7 +16,7 @@ export default function EventsPage() {
       time: "9:00 AM - 4:00 PM",
       location: "Student Center",
       category: "Orientation",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/f6/50/30/f65030ce74fbd260f46f20a107e8c8c6.jpg?height=200&width=400",
     },
     {
       id: "2",
@@ -25,7 +25,7 @@ export default function EventsPage() {
       time: "10:00 AM - 3:00 PM",
       location: "Engineering Building",
       category: "Career",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/fe/29/73/fe297327e9e27b7813ee6c8c20f002f8.jpg?height=200&width=400",
     },
     {
       id: "3",
@@ -34,7 +34,7 @@ export default function EventsPage() {
       time: "48 Hours",
       location: "Computer Science Building",
       category: "Technology",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://www.sirmvit.edu/wp-content/uploads/2025/03/Hackathon-poster.jpg?height=200&width=400",
     },
     {
       id: "4",
@@ -43,7 +43,7 @@ export default function EventsPage() {
       time: "7:00 PM - 11:00 PM",
       location: "Campus Stadium",
       category: "Entertainment",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/53/3d/b3/533db3a193581bd0f59330724f4409c5.jpg?height=200&width=400",
     },
     {
       id: "5",
@@ -52,7 +52,7 @@ export default function EventsPage() {
       time: "6:00 PM - 8:00 PM",
       location: "Business School Atrium",
       category: "Networking",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/16/1e/09/161e0928a295bc26d55b8bc1ab7af812.jpg?height=200&width=400",
     },
     {
       id: "6",
@@ -61,7 +61,7 @@ export default function EventsPage() {
       time: "8:00 PM - 12:00 AM",
       location: "Grand Ballroom",
       category: "Social",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/3c/f1/af/3cf1af729102d69d47858e21f30a09e5.jpg?height=200&width=400",
     },
     {
       id: "7",
@@ -70,7 +70,7 @@ export default function EventsPage() {
       time: "1:00 PM - 5:00 PM",
       location: "Science Center",
       category: "Academic",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/c2/7a/88/c27a8807b3a666252d32c4ceb55b5489.jpg?height=200&width=400",
     },
     {
       id: "8",
@@ -79,7 +79,7 @@ export default function EventsPage() {
       time: "11:00 AM - 3:00 PM",
       location: "Campus Quad",
       category: "Cultural",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/bf/fd/42/bffd425b99ab1c06194e6897ec79b864.jpg?height=200&width=400",
     },
     {
       id: "9",
@@ -88,7 +88,7 @@ export default function EventsPage() {
       time: "All Day",
       location: "Sports Complex",
       category: "Sports",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "https://i.pinimg.com/736x/4c/d9/80/4cd980e46f93f6a3a1b992459318b2f3.jpg?height=200&width=400",
     },
   ]
 
