@@ -116,7 +116,7 @@ export default function HomePage() {
               <div className="aspect-video relative">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
                 <img
-                  src="/placeholder.svg?height=200&width=400"
+                  src="https://i.pinimg.com/736x/79/30/cc/7930cc649ef405d61e4aabeca8259509.jpg?height=200&width=400"
                   alt="Robotics Club"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -138,7 +138,7 @@ export default function HomePage() {
               <div className="aspect-video relative">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
                 <img
-                  src="/placeholder.svg?height=200&width=400"
+                  src="https://i.pinimg.com/736x/ba/40/53/ba4053983ac41d17112a498f819987af.jpg?height=200&width=400"
                   alt="Debate Club"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -160,7 +160,7 @@ export default function HomePage() {
               <div className="aspect-video relative">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
                 <img
-                  src="/placeholder.svg?height=200&width=400"
+                  src="https://i.pinimg.com/736x/f1/e7/d9/f1e7d97a9776bb376d31f1b61eff3255.jpg?height=200&width=400"
                   alt="Photography Club"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />

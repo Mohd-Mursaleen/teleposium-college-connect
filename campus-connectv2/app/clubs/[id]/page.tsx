@@ -22,7 +22,7 @@ export default function ClubPage({ params }: ClubPageProps) {
       id: "robotics",
       name: "Robotics Club",
       category: "Technology",
-      image: "/placeholder.svg?height=400&width=800",
+      image: "https://i.pinimg.com/736x/79/30/cc/7930cc649ef405d61e4aabeca8259509.jpg?height=400&width=800",
       description:
         "The Robotics Club is dedicated to designing, building, and programming robots for various competitions and research projects. Members gain hands-on experience with mechanical engineering, electronics, and programming. The club participates in regional and national robotics competitions and hosts workshops for beginners.",
       members: 42,
