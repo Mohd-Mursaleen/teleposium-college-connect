@@ -11,13 +11,14 @@ export default function AboutPage() {
       id: "1",
       title: "Sir M. Visvesvaraya Institute Of Technology",
       description: "Excellence in Education Since 1986",
-      image: "https://www.sirmvit.edu/wp-content/uploads/2025/03/New-library.jpg",
+      image: "https://www.sirmvit.edu/wp-content/uploads/2023/01/home-slider-1-new.jpg",
     },
     {
       id: "2",
       title: "State-of-the-art Facilities",
       description: "Modern infrastructure for exceptional learning experiences",
-      image: "https://www.sirmvit.edu/wp-content/uploads/2023/01/home-slider-1-new.jpg",
+      
+      image: "https://www.sirmvit.edu/wp-content/uploads/2025/03/New-library.jpg",
     },
     {
       id: "3",
