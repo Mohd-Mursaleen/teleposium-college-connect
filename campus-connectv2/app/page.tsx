@@ -36,7 +36,7 @@ export default function HomePage() {
               time="24-hour hackathon"
               location="Sir MVIT Campus"
               category="Technical"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://www.sirmvit.edu/wp-content/uploads/2025/03/Hackathon-poster.jpg?height=200&width=400"
               description="A 24-hour hackathon organized under the flagship SUTANTRA, powered by TechHub:: Community and GLUG MVIT."
             />
           </Link>
@@ -47,7 +47,7 @@ export default function HomePage() {
               time="One-week program"
               location="EEE Department"
               category="Faculty Development"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://i.pinimg.com/736x/db/7c/19/db7c190693e054346e047d9a4480a838.jpg?height=200&width=400"
               description="Empowering Futuristic Research Avenues in Energy, Sustainability & Climate Change for Industrial Innovation."
             />
           </Link>
@@ -58,7 +58,7 @@ export default function HomePage() {
               time="5:15 PM"
               location="Sir MVIT Campus"
               category="Cultural"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://i.pinimg.com/736x/1d/ec/34/1dec348ffdc8091b9168d87fb696312d.jpg?height=200&width=400"
               description="Weekly Bhajan Program held every Monday evening during the month of Shravana."
             />
           </Link>
@@ -69,7 +69,7 @@ export default function HomePage() {
               time="Guest Lecture"
               location="Civil Engineering Department"
               category="Academic"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://i.pinimg.com/736x/ed/2d/97/ed2d97755066abb0acdfabd173e4c152.jpg?height=200&width=400"
               description="Talk on 'Global Water Industry Prospective' organized by the Department of Civil Engineering."
             />
           </Link>
@@ -80,7 +80,7 @@ export default function HomePage() {
               time="Workshop"
               location="MBA Department"
               category="Entrepreneurship"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://i.pinimg.com/736x/0e/f1/b4/0ef1b4f70a246f02b079dddae6175cb8.jpg?height=200&width=400"
               description="How to Plan for Startup and Legal & Ethical Steps - organized by the Department of MBA."
             />
           </Link>
@@ -91,7 +91,7 @@ export default function HomePage() {
               time="11:00 AM"
               location="Virtual"
               category="Academic"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://i.pinimg.com/736x/5d/55/b6/5d55b6cf84d18b88c3971b72299576d2.jpg?height=200&width=400"
               description="Virtual Parent-Teacher Meeting organized by the Department of MCA."
             />
           </Link>
