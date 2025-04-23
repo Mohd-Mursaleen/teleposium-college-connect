@@ -20,6 +20,11 @@ export function Header() {
       active: pathname === "/",
     },
     {
+      href: "/about",
+      label: "About",
+      active: pathname === "/about",
+    },
+    {
       href: "/events",
       label: "Events",
       active: pathname === "/events" || pathname.startsWith("/events/"),

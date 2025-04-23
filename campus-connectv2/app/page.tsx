@@ -31,12 +31,12 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Link href="/events/1" className="block group">
             <EventCard
-              title="Freshman Orientation"
-              date="Aug 28, 2023"
+              title="HackNocturne 2025"
+              date="April 20, 2025"
               time="9:00 AM - 4:00 PM"
-              location="Student Center"
+              location="New Block"
               category="Orientation"
-              image="/placeholder.svg?height=200&width=400"
+              image="https://www.sirmvit.edu/wp-content/uploads/2025/03/Hackathon-poster.jpg?height=200&width=400"
             />
           </Link>
           <Link href="/events/2" className="block group">
